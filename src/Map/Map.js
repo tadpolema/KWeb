@@ -94,7 +94,7 @@ export default class Map extends React.Component {
     if(!(isRShow || isGShow || isBShow)) {
       return null;
     }
-    let jsonData = this.loadJsonData('./data/125_1_10000.json');
+    let jsonData = this.loadJsonData('./95_2_1_84.json');
     return new GeoJsonLayer({
       id: ID,
       data: jsonData,
